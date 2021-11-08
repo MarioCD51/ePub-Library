@@ -1,0 +1,40 @@
+p {
+	-epub-hyphens: auto !important;
+	line-height: 1.3em;
+	orphans: 2;
+	text-align: justify;
+	widows: 2;
+	text-indent: 1.5em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+p.texto {
+	font-style: normal;
+	font-weight: normal;
+	text-indent: 1.5em;
+}
+.portadilla {
+  background-color: transparent;
+  width: 300px;
+  border: 2px solid black;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  
+  background-color: transparent;
+  border: 2px solid black;
+  margin: 100px 80px;
+  text-align: center;
+}
+img.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 200px;
+  width: 40%;
+}
